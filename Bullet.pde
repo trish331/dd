@@ -16,7 +16,10 @@ class Bullet extends GameObject {
     velocity.setMag(10);
     c = _colour;
     size = _size;
-    println(velocity);
+    velocity=_aim;
+    velocity.setMag (5);
+    roomX = myHero.roomX;
+    roomY = myHero.roomY;
   }
 
   void show() {

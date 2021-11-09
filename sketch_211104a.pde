@@ -48,6 +48,7 @@ void setup () {
   myObjects = new ArrayList <GameObject>(100);
   myHero = new Hero();
   myObjects.add(myHero);
+  myObjects.add(new Enemy());
 
   myGIF = new AnimatedGIF (56, "frame_", "_delay-0.06s.png", 100, 100, 200, 200);
   yourGIF = new AnimatedGIF (56, "frame_", "_delay-0.06s.png", 500, 500, 300, 300);
